@@ -37,10 +37,10 @@ class Ideone
 		        int x=arr.length;
 		                if (arraySortedOrNot(arr, x)!=0)
 		                {
-			System.out.println("Yes");
+			System.out.println("yes");
 		                }else
 		                {
-			System.out.println("No");
+			System.out.println("no");
 		                }
 		        
 		        
