@@ -14,7 +14,14 @@ class Ideone
 		        Scanner sc=new Scanner(System.in);
 		        int x=sc.nextInt();
 		        int y=sc.nextInt();
-        System.out.println(isPower(y, x) ? yes : no);
+        	Boolean res=isPower(y, x) ;
+		if(res)
+		{
+			System.out.print("yes");
+		}else
+		{
+			System.out.print("no");
+		}
         //System.out.println(isPower(1, 20) ? 1 : 0);
         //System.out.println(isPower(2, 128) ? 1 : 0);
         //System.out.println(isPower(2, 30) ? 1 : 0);
