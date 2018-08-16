@@ -41,7 +41,7 @@ class Ideone
         {
         	a[i]=sc.nextInt();
         }
-        for(int i=0;i<n1;i++)
+        for(int i=0;i<m1;i++)
         {
         	b[i]=sc.nextInt();
         }
